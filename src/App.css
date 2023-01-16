@@ -31,8 +31,8 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #4c768d;
-  color: #242443;
+  background-color: #006ca7;
+  color: #a3a3cc;
   height: 60px;
 }
 .sign-in {
@@ -115,6 +115,7 @@ input {
   background-color: #4c768d;
   display: flex;
 }
+
 .send-message > input {
   height: 40px;
   padding: 10px 10px;

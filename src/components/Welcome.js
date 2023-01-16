@@ -1,6 +1,6 @@
 import React from "react";
 import GoogleSignin from "../img/btn_google_signin_dark_pressed_web.png";
-import { auth } from "../firebase";
+import { auth } from "../firebase"
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 
 const Welcome = () => {
@@ -14,6 +14,8 @@ const Welcome = () => {
       <h2>Welcome to React Chat.</h2>
       <img src="/logo512.png" alt="ReactJs logo" width={50} height={50} />
       <p>Sign in with Google to chat with with your fellow React Developers.</p>
+      <p>Courtesy of Timonwa</p>
+      <p>Built with the help of her article on Daily Dev</p>
       <button className="sign-in">
         <img
           onClick={googleSignIn}
