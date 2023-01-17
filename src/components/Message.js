@@ -11,7 +11,7 @@ const Message = ({message}) => {
       <div className="chat-bubble__right">
         <p className="user-name">{message.name}</p>
         <p className="user-message">
-         {message.name}
+         {message.text}
         </p>
       </div>
     </div>
